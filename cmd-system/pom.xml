@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>eladmin</artifactId>
-        <groupId>me.zhengjie</groupId>
+        <artifactId>cmd-admin</artifactId>
+        <groupId>com.cmd</groupId>
         <version>2.3</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>eladmin-system</artifactId>
+    <artifactId>cmd-system</artifactId>
     <name>核心模块</name>
 
     <properties>
@@ -18,20 +18,20 @@
 
     <dependencies>
         <dependency>
-            <groupId>me.zhengjie</groupId>
-            <artifactId>eladmin-generator</artifactId>
+            <groupId>com.cmd</groupId>
+            <artifactId>cmd-generator</artifactId>
             <version>2.3</version>
             <exclusions>
                 <exclusion>
-                    <groupId>me.zhengjie</groupId>
-                    <artifactId>eladmin-common</artifactId>
+                    <groupId>com.cmd</groupId>
+                    <artifactId>cmd-common</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
 
         <dependency>
-            <groupId>me.zhengjie</groupId>
-            <artifactId>eladmin-tools</artifactId>
+            <groupId>com.cmd</groupId>
+            <artifactId>cmd-tools</artifactId>
             <version>2.3</version>
         </dependency>
 
