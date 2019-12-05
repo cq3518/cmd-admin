@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cmd-common" />
+        <module name="cmd-generator" />
+        <module name="cmd-logging" />
+        <module name="cmd-system" />
+        <module name="cmd-tools" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cmd-admin" target="1.8" />
+      <module name="cmd-common" target="1.8" />
+      <module name="cmd-generator" target="1.8" />
+      <module name="cmd-logging" target="1.8" />
+      <module name="cmd-system" target="1.8" />
+      <module name="cmd-tools" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
