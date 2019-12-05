@@ -6,7 +6,11 @@
 
 #### 项目简介
 cmd-admin 基于 Spring Boot 2.1.0 、 Jpa、 Spring Security、redis、Vue的前后端分离的后台管理系统， 权限控制的方式为RBAC，项目支持数据字典与数据权限管理，支持一键生成前后端代码，支持前端菜单动态路由
+#### 项目源码
 
+|     |   后端源码  |   前端源码  |
+|---  |--- | --- |
+|  github   |  https://github.com/cq3518/cmd-admin   |  https://github.com/cq3518/cmd-web  |
 
 
 **账号密码** ```admin/123456```(默认密码都是123456)
